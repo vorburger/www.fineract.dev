@@ -1,14 +1,14 @@
-This site provides hosting for [Apache Fineract](https://fineract.apache.org).  An instance of https://github.com/apache/fineract/ is running on https://demo.fineract.dev, and you can invoke e.g. https://demo.fineract.dev/fineract-provider/actuator/health and the full [Apache Fineract API](https://htmlpreview.github.io/?https://github.com/apache/fineract/blob/develop/api-docs/apiLive.htm).
+This site provides hosting for [Apache Fineract](https://fineract.apache.org).  An instance of https://github.com/apache/fineract/ is running on [https://demo.fineract.dev](https://demo.fineract.dev), and you can invoke e.g. [https://demo.fineract.dev/fineract-provider/actuator/health](https://demo.fineract.dev/fineract-provider/actuator/health) and the full [Apache Fineract API](https://htmlpreview.github.io/?https://github.com/apache/fineract/blob/develop/api-docs/apiLive.htm).
 
 ### Frequently Asked Questions (FAQ)
 
 *Is this free?* The demo instance is and always will be free.
 
-*What version of code does this run?* The demo instance currently runs Fineract built on April 18th, 2020.  We're looking into making it auto updated from the latest `develop` branch.  [FINERACT-883](https://issues.apache.org/jira/browse/FINERACT-883) will soon let you see the exact Git revision that is running.
-
 *Can I create myself a new tenant on the demo instance?*  Sure! Just to avoid any misunderstanding about what a **demo** instance is, and is not: The database of the demo instance will be completely wiped once a week by an automated script!
 
-*Can I get a persistent non-demo tenant or full instance here?*  We're still thinking this through.  Should you have an interest in a non-demo instance of Apache Fineract, and be willing to pay for its cost, feel free to reach out to hosting@fineract.dev - we're interested in understanding the need and expectations in this space.
+*Can I get a persistent non-demo tenant or full instance here?*  We're still thinking this through.  Should you have an interest in a non-demo instance of Apache Fineract, and be willing to pay for its cost, feel free to reach out to [hosting@fineract.dev](mailto:hosting@fineract.dev?subject=[www.fineract.dev]) - we're interested in understanding the need and expectations in this space.
+
+*What version of code does this run?* The demo instance currently runs Fineract built on April 18th, 2020.  We're looking into making it auto updated from the latest `develop` branch.  [FINERACT-883](https://issues.apache.org/jira/browse/FINERACT-883) will soon let you see the exact Git revision that is running.
 
 *What hardware, OS, DB etc. is this server running on?* It's actually not really a "server", but runs on some fancy latest generation modern cloud infrastructure.  The details shouldn't matter to users, and they may change over time, so we don't explain them in details here.
 
