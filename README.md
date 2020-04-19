@@ -18,7 +18,7 @@ This site provides hosting for code from [Apache Fineract](https://fineract.apac
 
 *Can you help me set up a server like this for our own use?*  Depends what exactly you mean by that.  We haven't been able to figure out how to exaplain the details of how this runs and make it an effective use of your and our time.  Having said that, please see the earlier questions about using this server for non-demo purposes.  If that is not an option for you, we would be interested in understanding why.
 
-*Is this Mifos?*  Two things here:  1. Mifos X is the old name of the code now lives on as https://github.com/apache/fineract/ at the ASF. In that sense, yes, this server runs (the current version of the code origially known as) Mifos.  2. The [Mifos.org](https://mifos.org) Initiative is the organization which originally helped move Mifos X to the Apache Foundation, and which continues to actively support the Apache Fineract project in many ways.
+*Is this Mifos?*  Two things here:  1. Mifos X is the old name of the code which now lives on at [https://github.com/apache/fineract](https://github.com/apache/fineract/)  at the ASF. In that sense, yes, this server runs (the current version of the code origially known as) Mifos.  2. The [Mifos.org](https://mifos.org) Initiative is the organization which originally helped move Mifos X to the Apache Foundation, and which continues to actively support the Apache Fineract project in many ways.
 
 *Is this an Apache Software Foundation project?* Apache Fineract sure is! This hosting website is not.
 
