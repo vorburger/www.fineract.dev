@@ -1,4 +1,12 @@
-This site provides hosting for code from [Apache Fineract](https://fineract.apache.org).  An instance of [https://github.com/apache/fineract](https://github.com/apache/fineract/) is running on [https://demo.fineract.dev](https://demo.fineract.dev), and you can invoke e.g. [fineract-provider/actuator/health](https://demo.fineract.dev/fineract-provider/actuator/health) and the full [Apache Fineract API](https://htmlpreview.github.io/?https://github.com/apache/fineract/blob/develop/api-docs/apiLive.htm).
+This site provides hosting for code from [Apache Fineract](https://fineract.apache.org), and runs [https://github.com/apache/fineract](https://github.com/apache/fineract/) on demo.fineract.dev.
+
+
+### Usage
+
+Invoke e.g. [fineract-provider/actuator/health](https://demo.fineract.dev/fineract-provider/actuator/health) 
+
+The full [Apache Fineract API](https://htmlpreview.github.io/?https://github.com/apache/fineract/blob/develop/api-docs/apiLive.htm) is, of course, available.
+
 
 ### Frequently Asked Questions (FAQ)
 
@@ -8,7 +16,7 @@ This site provides hosting for code from [Apache Fineract](https://fineract.apac
 
 *Can I get a persistent non-demo tenant or full instance here?*  We're still thinking this through.  Should you have a real serious interest in a non-demo instance of Apache Fineract, and be willing to pay for its cost, feel free to reach out to [hosting@fineract.dev](mailto:hosting@fineract.dev?subject=[www.fineract.dev]) - we're interested in understanding the need and expectations in this space.
 
-*What version of code does this run?*  The demo instance currently runs Fineract built on April 18th, 2020.  We're looking into making it auto updated from the latest `develop` branch.  [FINERACT-883](https://issues.apache.org/jira/browse/FINERACT-883) will soon let you see the exact Git revision that is running.
+*What version of code does this run?*  The demo instance currently runs Fineract built on April 18th, 2020.  We're looking into making it auto updated from the latest `develop` branch ([FINERACT-906](https://issues.apache.org/jira/browse/FINERACT-906)).  [FINERACT-883](https://issues.apache.org/jira/browse/FINERACT-883) will soon let you see the exact Git revision that is running.
 
 *What hardware, OS, DB etc. is this server running on?*  It's actually not really a "server", but runs on latest generation modern cloud infrastructure.  The details shouldn't matter to users, and they may change over time, so we don't explain them in details here.
 
