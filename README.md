@@ -18,6 +18,8 @@ The full [Apache Fineract API](https://htmlpreview.github.io/?https://github.com
 
 *What version of code does this run?*  The demo instance currently runs Fineract built on April 18th, 2020.  We're looking into making it auto updated from the latest `develop` branch ([FINERACT-906](https://issues.apache.org/jira/browse/FINERACT-906)).  [FINERACT-883](https://issues.apache.org/jira/browse/FINERACT-883) will soon let you see the exact Git revision that is running.
 
+*How well tested is the code that this site runs?*  We run the latest development branch on the demo instance, and released stable branches on non demo instances.  All running code has passed all unit and integration tests of the respective code branch.  (Any unstable tests which had to be disabled during development, are therefore, of course, not run before code deploys to this server.)
+
 *What hardware, OS, DB etc. is this server running on?*  It's actually not really a "server", but runs on latest generation modern cloud infrastructure.  The details shouldn't matter to users, and they may change over time, so we don't explain them in details here.
 
 *If this runs on the cloud, will it be always available?*  The cloud infrastructure  that this runs on is very reliable, and will e.g. "auto heal" and restart crashed instances.  We use top notch industry standard [Site Reliability Engineering](https://landing.google.com/sre/books/) (SRE) best practices such as monitoring metrics etc. to keep an eye on this server.  But here is a fun idea: Try to crash our demo - and if you manage, then work with us in the open source project to make the Fineract code more scaleable and reliable!
