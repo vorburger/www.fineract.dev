@@ -3,9 +3,11 @@ This site provides hosting for code from [Apache Fineract](https://fineract.apac
 
 ### Usage
 
-Invoke e.g. [fineract-provider/actuator/health](https://demo.fineract.dev/fineract-provider/actuator/health) 
+Invoke e.g. [fineract-provider/actuator/health](https://demo.fineract.dev/fineract-provider/actuator/health),
 
-The full [Apache Fineract API](https://htmlpreview.github.io/?https://github.com/apache/fineract/blob/develop/api-docs/apiLive.htm) is, of course, available.
+or [/api/v1/clients](https://demo.fineract.dev/fineract-provider/api/v1/clients?tenantIdentifier=default) (login with _mifos/password_)
+
+The full [Apache Fineract API](https://htmlpreview.github.io/?https://github.com/apache/fineract/blob/develop/api-docs/apiLive.htm) is available.
 
 
 ### Frequently Asked Questions (FAQ)
