@@ -1,13 +1,11 @@
-This site provides hosting for code from [Apache Fineract](https://fineract.apache.org), and runs [https://github.com/apache/fineract](https://github.com/apache/fineract/) on demo.fineract.dev.
+This site provides hosting for code from [Apache Fineract](https://fineract.apache.org), and runs [https://github.com/apache/fineract](https://github.com/apache/fineract/) on demo.fineract.dev.  It also serves https://github.com/openMF/community-app on cui.fineract.dev.
 
 
 ### Usage
 
-Invoke e.g. [fineract-provider/actuator/health](https://demo.fineract.dev/fineract-provider/actuator/health),
+Open https://cui.fineract.dev/?baseApiUrl=https://demo.fineract.dev&tenantIdentifier=default and login with _mifos/password_.
 
-or [/api/v1/clients](https://demo.fineract.dev/fineract-provider/api/v1/clients?tenantIdentifier=default) (login with _mifos/password_)
-
-The full [Apache Fineract API](https://htmlpreview.github.io/?https://github.com/apache/fineract/blob/develop/api-docs/apiLive.htm) is available.
+You can also invoke the REST API backend directly; e.g. [fineract-provider/actuator/health](https://demo.fineract.dev/fineract-provider/actuator/health), or [/api/v1/clients](https://demo.fineract.dev/fineract-provider/api/v1/clients?tenantIdentifier=default) (also login with _mifos/password)._ [Apache Fineract's Full API](https://htmlpreview.github.io/?https://github.com/apache/fineract/blob/develop/api-docs/apiLive.htm) is available.
 
 
 ### Frequently Asked Questions (FAQ)
