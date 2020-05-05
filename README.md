@@ -3,9 +3,9 @@ This site provides hosting for code from [Apache Fineract](https://fineract.apac
 
 ### Usage
 
-Open https://cui.fineract.dev/?baseApiUrl=https://demo.fineract.dev&tenantIdentifier=default and login with _mifos/password_.
+Open [https://cui.fineract.dev/?baseApiUrl=https://demo.fineract.dev&tenantIdentifier=default](https://cui.fineract.dev/?baseApiUrl=https://demo.fineract.dev&tenantIdentifier=default) and login with _mifos/password_.
 
-You can also invoke the REST API backend directly; e.g. [fineract-provider/actuator/health](https://demo.fineract.dev/fineract-provider/actuator/health), or [/api/v1/clients](https://demo.fineract.dev/fineract-provider/api/v1/clients?tenantIdentifier=default) (also login with _mifos/password)._ [Apache Fineract's Full API](https://htmlpreview.github.io/?https://github.com/apache/fineract/blob/develop/api-docs/apiLive.htm) is available.
+You can also invoke [Apache Fineract's REST API](https://htmlpreview.github.io/?https://github.com/apache/fineract/blob/develop/api-docs/apiLive.htm) backend directly; e.g. [/api/v1/clients](https://demo.fineract.dev/fineract-provider/api/v1/clients?tenantIdentifier=default) or the [api/v1/audits](https://demo.fineract.dev/fineract-provider/api/v1/audits?tenantIdentifier=default) (login with _mifos/password_ for both), etc.
 
 
 ### Frequently Asked Questions (FAQ)
