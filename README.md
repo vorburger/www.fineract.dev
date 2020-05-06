@@ -1,4 +1,5 @@
-This site provides hosting for code from [Apache Fineract](https://fineract.apache.org), and runs [github.com/apache/fineract](https://github.com/apache/fineract/).  It also serves [github.com/openMF/community-app](https://github.com/openMF/community-app) ([patched](https://github.com/openMF/community-app/compare/develop...vorburger:firebase)) and [github.com/openMF/web-app](https://github.com/openMF/web-app/) ([patched](https://github.com/openMF/web-app/compare/master...vorburger:fineract.dev)).
+This site provides hosting for code from [Apache Fineract](https://fineract.apache.org), and runs [github.com/apache/fineract](https://github.com/apache/fineract/) as a service.
+It also provides [github.com/openMF/community-app](https://github.com/openMF/community-app) and [github.com/openMF/web-app](https://github.com/openMF/web-app/).
 
 
 ### Usage
@@ -24,7 +25,10 @@ You can also invoke [Apache Fineract's REST API](https://htmlpreview.github.io/?
 
 *If this runs on the cloud, will it be always available?*  The cloud infrastructure  that this runs on is very reliable, and will e.g. "auto heal" and restart crashed instances.  The HTML/JS is served from a world-wide content distribution network (CDN).  We use top notch industry standard [Site Reliability Engineering](https://landing.google.com/sre/books/) (SRE) best practices such as monitoring metrics etc. to keep an eye on this server.  But here is a fun idea: Try to crash our demo - and if you manage, then work with us in the open source project to make the Fineract code more scaleable and reliable!
 
-*Is this open source?*  The Fineract code that runs here of course is.  Many improvements made to be able to run this site already have been and will continue to be made "[upstream first](https://www.youtube.com/watch?v=PQloi5Z-0rQ)".  The hosting setup itself is mostly manual, and there is nothing much there to share that would make much sense.  The web [page itself you are reading is on GitHub](https://github.com/vorburger/www.fineract.dev/blob/master/README.md), and you are welcome to propose any improvements to it through a pull request.
+*Is this open source?*  The Fineract and UI code that runs here of course is
+([patched](https://github.com/openMF/community-app/compare/develop...vorburger:firebase), and
+[patched](https://github.com/openMF/web-app/compare/master...vorburger:fineract.dev)).
+Many improvements made to be able to run this site already have been and will continue to be made "[upstream first](https://www.youtube.com/watch?v=PQloi5Z-0rQ)".  The hosting setup itself is mostly manual, and there is nothing much there to share that would make much sense.  The web [page itself you are reading is on GitHub](https://github.com/vorburger/www.fineract.dev/blob/master/README.md), and you are welcome to propose any improvements to it through a pull request.
 
 *Can you help me set up a server like this for our own use?*  Depends what exactly you mean by that.  We haven't been able to figure out how to explain the details of how this runs and make it an effective use of your and our time.  Having said that, please see the earlier questions about using this server for non-demo purposes.  If that is not an option for you, we would be interested in understanding why.
 
