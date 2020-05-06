@@ -1,9 +1,9 @@
-This site provides hosting for code from [Apache Fineract](https://fineract.apache.org), and runs [https://github.com/apache/fineract](https://github.com/apache/fineract/) on demo.fineract.dev.  It also serves https://github.com/openMF/community-app on cui.fineract.dev.
+This site provides hosting for code from [Apache Fineract](https://fineract.apache.org), and runs [github.com/apache/fineract](https://github.com/apache/fineract/).  It also serves [github.com/openMF/community-app](https://github.com/openMF/community-app) ([patched](https://github.com/openMF/community-app/compare/develop...vorburger:firebase)) and [github.com/openMF/web-app](https://github.com/openMF/web-app/) ([patched](https://github.com/openMF/web-app/compare/master...vorburger:fineract.dev)).
 
 
 ### Usage
 
-Open [https://cui.fineract.dev/?baseApiUrl=https://demo.fineract.dev&tenantIdentifier=default](https://cui.fineract.dev/?baseApiUrl=https://demo.fineract.dev&tenantIdentifier=default) and login with _mifos/password_.
+Open [cui.fineract.dev](https://cui.fineract.dev/?baseApiUrl=https://demo.fineract.dev&tenantIdentifier=default) (Community App, old) or [wui.fineract.dev](https://wui.fineract.dev) (Web App, new) and login to both with _mifos/password_.
 
 You can also invoke [Apache Fineract's REST API](https://htmlpreview.github.io/?https://github.com/apache/fineract/blob/develop/api-docs/apiLive.htm) backend directly; e.g. [/api/v1/clients](https://demo.fineract.dev/fineract-provider/api/v1/clients?tenantIdentifier=default) or the [api/v1/audits](https://demo.fineract.dev/fineract-provider/api/v1/audits?tenantIdentifier=default) (login with _mifos/password_ for both), etc.
 
@@ -20,9 +20,9 @@ You can also invoke [Apache Fineract's REST API](https://htmlpreview.github.io/?
 
 *How well tested is the code that this site runs?*  We run the latest development branch on the demo instance, and released stable branches on non demo instances.  All running code has passed all unit and integration tests of the respective code branch.  (Any unstable tests which had to be disabled during development, are therefore, of course, not run before code deploys to this server.)
 
-*What hardware, OS, DB etc. is this server running on?*  It's actually not really a "server", but runs on latest generation modern cloud infrastructure.  The details shouldn't matter to users, and they may change over time, so we don't explain them in details here.
+*What hardware, OS, DB etc. is this server running on?*  It's actually not really a "server", but runs on latest generation modern cloud infrastructure.  The full details shouldn't matter to users, and they may change over time, so we don't explain them in details here.
 
-*If this runs on the cloud, will it be always available?*  The cloud infrastructure  that this runs on is very reliable, and will e.g. "auto heal" and restart crashed instances.  We use top notch industry standard [Site Reliability Engineering](https://landing.google.com/sre/books/) (SRE) best practices such as monitoring metrics etc. to keep an eye on this server.  But here is a fun idea: Try to crash our demo - and if you manage, then work with us in the open source project to make the Fineract code more scaleable and reliable!
+*If this runs on the cloud, will it be always available?*  The cloud infrastructure  that this runs on is very reliable, and will e.g. "auto heal" and restart crashed instances.  The HTML/JS is served from a world-wide content distribution network (CDN).  We use top notch industry standard [Site Reliability Engineering](https://landing.google.com/sre/books/) (SRE) best practices such as monitoring metrics etc. to keep an eye on this server.  But here is a fun idea: Try to crash our demo - and if you manage, then work with us in the open source project to make the Fineract code more scaleable and reliable!
 
 *Is this open source?*  The Fineract code that runs here of course is.  Many improvements made to be able to run this site already have been and will continue to be made "[upstream first](https://www.youtube.com/watch?v=PQloi5Z-0rQ)".  The hosting setup itself is mostly manual, and there is nothing much there to share that would make much sense.  The web [page itself you are reading is on GitHub](https://github.com/vorburger/www.fineract.dev/blob/master/README.md), and you are welcome to propose any improvements to it through a pull request.
 
