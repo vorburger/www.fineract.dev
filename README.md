@@ -13,13 +13,13 @@ You can also invoke [Apache Fineract's REST API](https://demo.fineract.dev/finer
 
 *Is this free?*  The demo instance is and always will be free.
 
-*Can I do whatever I like on the demo instance?*  Sure! Just to avoid any misunderstanding about what a **demo** is, and is not: The database of the default tenant on the demo will be completely wiped once a week by an automated script!
+*Can I do whatever I like on the demo instance?*  Sure! Just to avoid any misunderstanding about what a **demo** is, and is not: The database of the default tenant on the demo may be completely wiped about once a week by an automated script!
 
-*Can I get a persistent non-demo tenant or full instance here?*  We're still thinking this through.  Should you have a real serious interest in a non-demo instance of Apache Fineract, and be willing to pay for its cost, feel free to reach out to [hosting@fineract.dev](mailto:hosting@fineract.dev?subject=[www.fineract.dev]) - we're interested in understanding the need and expectations in this space.
+*Can I get a persistent non-demo tenant or full instance here?*  We're still thinking this through.  Should you have an interest in a non-demo instance of Apache Fineract, please reach out to [hosting@fineract.dev](mailto:hosting@fineract.dev?subject=[www.fineract.dev]) - we're interested in understanding the need and expectations in this space.
 
-*What version of code does this run?*  The demo instance currently runs Fineract built on April 18th, 2020.  We're looking into making it auto updated from the latest `develop` branch ([FINERACT-906](https://issues.apache.org/jira/browse/FINERACT-906)).  [FINERACT-883](https://issues.apache.org/jira/browse/FINERACT-883) will soon let you see the exact Git revision that is running.
+*What version of code does this run?*  This server uses CI/CD and always automatically updates itself from the very latest source code available on the `develop` branch of Fineract ([FINERACT-970](https://issues.apache.org/jira/browse/FINERACT-970)).  You can verify this for yourself by [checking the /actuator/info API](https://demo.fineract.dev/fineract-provider/actuator/info), which returns the exact Git commit revision that is running.  (New deployments take about 15' after we merge Pull Requests.)
 
-*How well tested is the code that this site runs?*  We run the latest development branch on the demo instance, and released stable branches on non demo instances.  All running code has passed all unit and integration tests of the respective code branch.  (Any unstable tests which had to be disabled during development, are therefore, of course, not run before code deploys to this server.)
+*How well tested is the code that this site runs?*  All running code has passed all of Fineract's unit and integration tests of the respective code branch.  (Any unstable tests which had to be disabled during development, are therefore, of course, not run before code deploys to this server.)
 
 *What hardware, OS, DB etc. is this server running on?*  It's actually not really a "server", but runs on latest generation modern cloud infrastructure.  The full details shouldn't matter to users, and they may change over time, so we don't explain them in details here.
 
