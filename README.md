@@ -6,7 +6,7 @@ It also provides [github.com/openMF/community-app](https://github.com/openMF/com
 
 Open [cui.fineract.dev](https://cui.fineract.dev/?baseApiUrl=https://demo.fineract.dev&tenantIdentifier=default) (Community App, old) or [wui.fineract.dev](https://wui.fineract.dev) (Web App, new) and login to both with _mifos/password_.
 
-You can also invoke [Apache Fineract's REST API](https://htmlpreview.github.io/?https://github.com/apache/fineract/blob/develop/api-docs/apiLive.htm) backend directly; e.g. [/api/v1/clients](https://demo.fineract.dev/fineract-provider/api/v1/clients?tenantIdentifier=default) or the [api/v1/audits](https://demo.fineract.dev/fineract-provider/api/v1/audits?tenantIdentifier=default) (login with _mifos/password_ for both), etc.
+You can also invoke [Apache Fineract's REST API](https://demo.fineract.dev/fineract-provider/api-docs/apiLive.htm) backend directly; e.g. [/api/v1/clients](https://demo.fineract.dev/fineract-provider/api/v1/clients?tenantIdentifier=default) or the [api/v1/audits](https://demo.fineract.dev/fineract-provider/api/v1/audits?tenantIdentifier=default) (login with _mifos/password_ for both), etc.
 
 
 ### Frequently Asked Questions (FAQ)
