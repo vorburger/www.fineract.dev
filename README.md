@@ -21,7 +21,7 @@ You can also invoke [Apache Fineract's REST API](https://demo.fineract.dev/finer
 
 *How well tested is the code that this site runs?*  All running code has passed all of Fineract's unit and integration tests of the respective code branch.  (Any unstable tests which had to be disabled during development, are therefore, of course, not run before code deploys to this server.)
 
-*What hardware, OS, DB etc. is this server running on?*  It's actually not really a "server", but runs on latest generation modern cloud infrastructure.  The full details shouldn't matter to users, and they may change over time, so we don't explain them in details here.
+*What hardware, OS, DB etc. is this server running on?*  It's actually not really a "server", but runs on latest generation modern cloud infrastructure.  The exact details shouldn't matter to users, and they may change over time, so we don't explain them in details here.  The DB is MySQL 5.7 on Google Cloud SQL, and using the MySQL (not Drizzle) JDBC driver that Fineract includes in its Docker container.
 
 *If this runs on the cloud, will it be always available?*  The cloud infrastructure  that this runs on is very reliable, and will e.g. "auto heal" and restart crashed instances.  The HTML/JS is served from a world-wide content distribution network (CDN).  We use top notch industry standard [Site Reliability Engineering](https://landing.google.com/sre/books/) (SRE) best practices such as monitoring metrics etc. to keep an eye on this server.  But here is a fun idea: Try to crash our demo - and if you manage, then work with us in the open source project to make the Fineract code more scaleable and reliable!
 
