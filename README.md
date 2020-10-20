@@ -36,6 +36,8 @@ Many improvements made to be able to run this site already have been and will co
 
 *Is this Mifos?*  Two things here:  1. Mifos X is the old name of the code which now lives on at [https://github.com/apache/fineract](https://github.com/apache/fineract/)  at the ASF. In that sense, yes, this server runs (the current version of the code origially known as) Mifos.  2. The [Mifos.org](https://mifos.org) Initiative is the organization which originally helped move Mifos X to the Apache Foundation, and which continues to actively support the Apache Fineract project in many ways.
 
+*Is this [Fineract CN](https://github.com/search?q=org%3Aapache+fineract-cn&unscoped_q=fineract-cn)?* No, this curently run only [Fineract](https://github.com/apache/fineract).
+
 *Is this an Apache Software Foundation project?* Apache Fineract sure is! This hosting website is not.
 
 
