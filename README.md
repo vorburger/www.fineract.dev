@@ -1,12 +1,10 @@
-This site provides hosting for code from [Apache Fineract](https://fineract.apache.org), and runs [github.com/apache/fineract](https://github.com/apache/fineract/) as a service.
-It also provides [github.com/openMF/community-app](https://github.com/openMF/community-app) and [github.com/openMF/web-app](https://github.com/openMF/web-app/).
-
+This site provides hosting for [Apache Fineract](https://fineract.apache.org), and runs the code from [github.com/apache/fineract](https://github.com/apache/fineract/) as a service.
 
 ### Usage
 
-Open [cui.fineract.dev](https://cui.fineract.dev/?baseApiUrl=https://demo.fineract.dev&tenantIdentifier=default) (Community App, old) or [wui.fineract.dev](https://wui.fineract.dev) (Web App, new) and login to both with e.g. _mifos/password_.
+Open the [Community App UI](https://openmf.github.io/community-app?baseApiUrl=https://demo.fineract.dev&tenantIdentifier=default) (older, but more complete; see https://github.com/openMF/community-app) or [the Web App UI](https://wui.fineract.dev) (newer; see https://github.com/openMF/web-app/, note [#1256](https://github.com/openMF/web-app/pull/1256) and [#786](https://github.com/openMF/web-app/pull/786)) and login to both with e.g. _mifos/password_.
 
-You can also directly invoke [Apache Fineract's REST API](https://demo.fineract.dev/fineract-provider/api-docs/apiLive.htm) backend on this server; e.g. via [/api/v1/clients](https://demo.fineract.dev/fineract-provider/api/v1/clients?tenantIdentifier=default) or the [api/v1/audits](https://demo.fineract.dev/fineract-provider/api/v1/audits?tenantIdentifier=default) etc. or by [using the Swagger UI](https://demo.fineract.dev/fineract-provider/swagger-ui/index.html) (or directly use [Fineract's Swagger YAML](https://demo.fineract.dev/fineract-provider/swagger-ui/fineract.yaml) in a tool).  Again, always login with e.g. _mifos/password_ to the REST API, just like the UI.
+You can also directly invoke [Apache Fineract's REST API](https://demo.fineract.dev/fineract-provider/api-docs/apiLive.htm) backend on this server; e.g. via [/api/v1/clients](https://demo.fineract.dev/fineract-provider/api/v1/clients?tenantIdentifier=default) or the [api/v1/audits](https://demo.fineract.dev/fineract-provider/api/v1/audits?tenantIdentifier=default) etc. or by [using the new Swagger UI](https://demo.fineract.dev/fineract-provider/swagger-ui/index.html) (or directly use [Fineract's Swagger YAML](https://demo.fineract.dev/fineract-provider/swagger-ui/fineract.yaml) in a tool).  Again, always login with e.g. _mifos/password_ to the REST API, just like the UI.
 
 
 ### Frequently Asked Questions (FAQ)
