@@ -2,7 +2,7 @@ This site provides hosting for [Apache Fineract](https://fineract.apache.org), a
 
 ### Usage
 
-Open the [Community App UI](https://openmf.github.io/community-app?baseApiUrl=https://demo.fineract.dev&tenantIdentifier=default) (older, but more complete; see [github.com/openMF/community-app](https://github.com/openMF/community-app)) or [the Web App UI](https://wui.fineract.dev) (newer, see [github.com/openMF/web-app](https://github.com/openMF/web-app/); note [#1256](https://github.com/openMF/web-app/pull/1256) and [#786](https://github.com/openMF/web-app/pull/786)) and login to both with e.g. _mifos/password_.
+Open the [Community App UI](https://openmf.github.io/community-app?baseApiUrl=https://demo.fineract.dev&tenantIdentifier=default) (older, but more complete; see [github.com/openMF/community-app](https://github.com/openMF/community-app)) or [the Web App UI](https://openmf.github.io/web-app/) (newer, see [github.com/openMF/web-app](https://github.com/openMF/web-app/)) and login with e.g. _mifos/password_.
 
 You can also directly invoke [Apache Fineract's REST API](https://demo.fineract.dev/fineract-provider/api-docs/apiLive.htm) backend on this server; e.g. via [/api/v1/clients](https://demo.fineract.dev/fineract-provider/api/v1/clients?tenantIdentifier=default) or the [api/v1/audits](https://demo.fineract.dev/fineract-provider/api/v1/audits?tenantIdentifier=default) etc. or by [using the new Swagger UI](https://demo.fineract.dev/fineract-provider/swagger-ui/index.html) (or directly use [Fineract's Swagger YAML](https://demo.fineract.dev/fineract-provider/swagger-ui/fineract.yaml) in a tool).  Again, always login with e.g. _mifos/password_ to the REST API, just like the UI.
 
@@ -25,18 +25,16 @@ You can also directly invoke [Apache Fineract's REST API](https://demo.fineract.
 
 *If this runs on the cloud, will it be always available?*  The cloud infrastructure  that this runs on is very reliable, and will e.g. "auto heal" and restart crashed instances.  The HTML/JS is served from a world-wide content distribution network (CDN).  We use top notch industry standard [Site Reliability Engineering](https://landing.google.com/sre/books/) (SRE) best practices such as monitoring metrics etc. to keep an eye on this server.  But here is a fun idea: Try to crash our demo - and if you manage, then work with us in the open source project to make the Fineract code more scaleable and reliable!
 
-*Is this open source?*  The Fineract and UI code that runs here of course is
-([patched](https://github.com/openMF/community-app/compare/develop...vorburger:firebase), and
-[patched](https://github.com/openMF/web-app/compare/master...vorburger:fineract.dev)).
+*Is this open source?*  The Fineract and UI code that runs here of course is.
 Many improvements made to be able to run this site already have been and will continue to be made "[upstream first](https://www.youtube.com/watch?v=PQloi5Z-0rQ)".  The hosting setup itself is mostly manual, and there is nothing much there to share that would make much sense.  The web [page itself you are reading is on GitHub](https://github.com/vorburger/www.fineract.dev/blob/master/README.md), and you are welcome to propose any improvements to it through a pull request.
 
 *Can you help me set up a server like this for our own use?*  Depends what exactly you mean by that.  We haven't been able to figure out how to explain the details of how this runs and make it an effective use of your and our time.  Having said that, please see the earlier questions about using this server for non-demo purposes.  If that is not an option for you, we would be interested in understanding why.
 
 *Is this Mifos?*  Two things here:  1. Mifos X is the old name of the code which now lives on at [https://github.com/apache/fineract](https://github.com/apache/fineract/)  at the ASF. In that sense, yes, this server runs (the current version of the code origially known as) Mifos.  2. The [Mifos.org](https://mifos.org) Initiative is the organization which originally helped move Mifos X to the Apache Foundation, and which continues to actively support the Apache Fineract project in many ways.
 
-*Is this [Fineract CN](https://github.com/search?q=org%3Aapache+fineract-cn&unscoped_q=fineract-cn)?* No, this curently run only [Fineract](https://github.com/apache/fineract).
-
 *Is this an Apache Software Foundation project?* Apache Fineract sure is! This hosting website is not.
+
+*Is this [Fineract CN](https://github.com/search?q=org%3Aapache+fineract-cn&unscoped_q=fineract-cn)?* No, this site curently runs only [Fineract](https://github.com/apache/fineract).
 
 
 ### Contact & Support
@@ -48,7 +46,7 @@ For community support by volunteers about how to use Apache Fineract, use:
 * [mifos-users list on sourceforge.net](https://sourceforge.net/projects/mifos/lists/mifos-users) (also [on groups.google.com](https://groups.google.com/forum/#!forum/mifosusers)) for general end-user type questions
 * [mifos-developer list on sourceforge.net](https://sourceforge.net/projects/mifos/lists/mifos-developer) (also on [groups.google.com](https://groups.google.com/forum/#!forum/mifosdeveloper)) for technical questions about the UI front-ends, mobile apps, etc. maintained on [github.com/openMF](https://github.com/openMF/)
 * [Fineract Dev list at Apache.org](https://fineract.apache.org/) for the REST API back-end running on this server
-* [issues of this project](https://github.com/vorburger/www.fineract.dev/issues) for anything specific (and only) this fineract.dev server
+* [Issues of this project](https://github.com/vorburger/www.fineract.dev/issues) for anything specific (and only) to this fineract.dev server
 * [Discourse Forums offered by the Mifos Initiative](https://discourse.mifos.org)
 
 To add new features and fix bugs blocking you in Fineract, you are cordially invited to be an active open source contributor to the Apache Fineract project.  Alternatively you can pay someone to do so for you; you can meet some of the parties interested in working with you on the mailing lists.
