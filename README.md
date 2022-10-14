@@ -11,7 +11,7 @@ You can also directly invoke [Apache Fineract's REST API](https://demo.fineract.
 
 *Is this free?*  The demo instance is and always will be free.
 
-*Who pays for hosting this?*  [vorburger@](https://github.com/vorburger) originally paid for it personally.  Google Cloud hosting costs for this demo site are currently graciously offered by [Google Open Source](https://opensource.google/).
+*Who pays for hosting this?*  [vorburger@](https://github.com/vorburger) originally paid for it personally.  Google Cloud hosting costs for this demo site were graciously offered by [Google Open Source](https://opensource.google/) from mid October 2021 to 2022.  The demo instance is currently stopped; please reach out to [hosting@fineract.dev](mailto:hosting@fineract.dev?subject=[www.fineract.dev]) if you would like to discuss bringing it back alive.
 
 *Can I do whatever I like on the demo instance?*  Sure! Just to avoid any misunderstanding about what a **demo** is, and is not: The database of the default tenant on the demo may be completely wiped about once a week by an automated script!
 
