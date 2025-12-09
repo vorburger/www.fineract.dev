@@ -1,15 +1,16 @@
-This site provides hosting for [Apache Fineract](https://fineract.apache.org), and runs the code from [github.com/apache/fineract](https://github.com/apache/fineract/) as a service.
+This site provided hosting for [Apache Fineract](https://fineract.apache.org), and runs the code from [github.com/apache/fineract](https://github.com/apache/fineract/) as a service.
 
+<!--
 ### Usage
 
 Open the [Community App UI](https://openmf.github.io/community-app?baseApiUrl=https://demo.fineract.dev&tenantIdentifier=default) (older, but more complete; see [github.com/openMF/community-app](https://github.com/openMF/community-app)) or [the Web App UI](https://openmf.github.io/web-app/) (newer, see [github.com/openMF/web-app](https://github.com/openMF/web-app/)) and login with e.g. _mifos/password_.
 
 You can also directly invoke [Apache Fineract's REST API](https://demo.fineract.dev/fineract-provider/api-docs/apiLive.htm) backend on this server; e.g. via [/api/v1/clients](https://demo.fineract.dev/fineract-provider/api/v1/clients?tenantIdentifier=default) or the [api/v1/audits](https://demo.fineract.dev/fineract-provider/api/v1/audits?tenantIdentifier=default) etc. or by [using the new Swagger UI](https://demo.fineract.dev/fineract-provider/swagger-ui/index.html) (or directly use [Fineract's Swagger YAML](https://demo.fineract.dev/fineract-provider/swagger-ui/fineract.yaml) in a tool).  Again, always login with e.g. _mifos/password_ to the REST API, just like the UI.
-
+-->
 
 ### Frequently Asked Questions (FAQ)
 
-*Is this free?*  The demo instance is and always will be free.
+*Is this free?*  The demo instance was free.
 
 *Who pays for hosting this?*  [vorburger@](https://github.com/vorburger) originally paid for it personally.  Google Cloud hosting costs for this demo site were graciously offered by [Google Open Source](https://opensource.google/) from mid October 2021 to 2022.  The demo instance is currently stopped; please reach out to [hosting@fineract.dev](mailto:hosting@fineract.dev?subject=[www.fineract.dev]) if you would like to discuss bringing it back alive.
 
